@@ -1,0 +1,43 @@
+.trie-controls {
+  text-align: center !important;
+  align-items: end;
+  position: relative;
+}
+
+.icon-btn > .icon {
+  margin-left: 10px;
+}
+
+.icon-btn {
+  margin-right: 1rem;
+  padding-top: 10px !important;
+  text-transform: uppercase;
+}
+
+.search-bar {
+  max-width: 400px;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.dropdown-toggle {
+  margin-right: 1rem;
+  text-transform: capitalize;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin: 0 auto !important;
+}
+
+.dropdown-item {
+  text-transform: capitalize;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block !important;
+}
