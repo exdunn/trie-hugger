@@ -15,7 +15,8 @@ export const ColorScales = {
   CIVIDIS: "cividis",
   PLASMA: "plasma",
   WARM: "warm",
-  COOL: "cool"
+  COOL: "cool",
+  RAINBOW: "rainbow"
 };
 
 export function mapColorScaleToD3Interpolation(colorScale) {
@@ -32,6 +33,8 @@ export function mapColorScaleToD3Interpolation(colorScale) {
       return d3.interpolateSpectral;
     case ColorScales.WARM:
       return d3.interpolateWarm;
+    case ColorScales.RAINBOW:
+      return d3.interpolateRainbow;
   }
   return d3.interpolateSpectral;
 }
