@@ -16,7 +16,8 @@ export const ColorScales = {
   PLASMA: "plasma",
   WARM: "warm",
   COOL: "cool",
-  RAINBOW: "rainbow"
+  RAINBOW: "rainbow",
+  CUBE_HELIX: "cube helix"
 };
 
 export function mapColorScaleToD3Interpolation(colorScale) {
@@ -25,6 +26,8 @@ export function mapColorScaleToD3Interpolation(colorScale) {
       return d3.interpolateCividis;
     case ColorScales.COOL:
       return d3.interpolateCool;
+    case ColorScales.CUBE_HELIX:
+      return d3.interpolateCubehelixDefault;
     case ColorScales.MAGMA:
       return d3.interpolateMagma;
     case ColorScales.PLASMA:
