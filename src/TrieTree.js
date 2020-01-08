@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import * as d3 from "d3";
 import Trie from "./Trie";
 
-const DURATION = 750;
-
 class TrieTree extends Component {
   componentDidMount() {
     if (this.props.text) {
@@ -13,7 +11,7 @@ class TrieTree extends Component {
   }
 
   componentDidUpdate(prevProps) {
-    if (prevProps.text != this.props.text) {
+    if (prevProps.text !== this.props.text) {
       deleteTrie();
       if (this.props.text) {
         let trie = new Trie(this.props.text);
@@ -23,7 +21,7 @@ class TrieTree extends Component {
 
     if (
       (prevProps.searchValue !== this.props.searchValue ||
-        prevProps.color != this.props.color) &&
+        prevProps.color !== this.props.color) &&
       this.props.searchValue !== undefined
     ) {
       updateTrie(this.props);
