@@ -13,6 +13,6 @@
 
 ## Implementation
 * Frontend built with React, Bootstrap, CSS, and HTML
-* Data visualized with D3js (Tree and Pack hierarchy visualizations)
+* Data visualized with D3js (Tree and Pack hierarchy representations)
 * Randomly generating text with Lorem Ipsum JS
 * Production build deployed with Netlify for continuous integration
