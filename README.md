@@ -13,7 +13,6 @@
 
 ## Implementation
 * Frontend built with React, Bootstrap, CSS, and HTML
-* Visualizations created with the D3 JavaScript library
-* Highly OO design, dividing UI elements into modular React components
-* Using Lorem Ipsum to randomly generate text
+* Data visualized with D3js (Tree and Pack hierarchy visualizations)
+* Randomly generating text with Lorem Ipsum JS
 * Production build deployed with Netlify for continuous integration
