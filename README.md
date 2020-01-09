@@ -3,7 +3,7 @@
 
 ### [Try it out!](https://unruffled-hugle-5470e0.netlify.com/)
 
-![demo](./assets/trie hugger.gif)
+![demo](./assets/trie-hugger.gif)
 
 ## Features
 * Uber interactive data visualizations
