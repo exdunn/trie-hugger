@@ -1,7 +1,7 @@
 # Trie Hugger
 ##### Interactive data visualizer for the trie data structure
 
-### [Try it out!](https://unruffled-hugle-5470e0.netlify.com/)
+### [Trie it out!](https://unruffled-hugle-5470e0.netlify.com/)
 
 ![demo](./assets/trie-hugger.gif)
 
